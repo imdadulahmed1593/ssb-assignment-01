@@ -1,0 +1,191 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: rgb(3, 3, 3);
+  font-family: "Roboto", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 16px;
+  font-size: 20px;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+}
+.navbar a:hover {
+  color: rgb(68, 187, 255);
+}
+
+.newsletter {
+  background-color: #f5f5f5;
+  color: black;
+  padding: 90px;
+  text-align: center;
+}
+.container {
+  width: 1140px;
+  margin: auto;
+}
+.newsletter h1 {
+  font-family: "Roboto", sans-serif;
+  color: #2f323a;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.newsletter p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: rgb(78, 78, 78);
+  margin-bottom: 40px;
+}
+
+.newsletter .box-1 {
+  width: 25%;
+  padding: 16px;
+  color: transparent;
+  color: black;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+.newsletter .box-2 {
+  width: 25%;
+  padding: 16px;
+  color: transparent;
+  color: black;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+.newsletter .box-3 {
+  width: 12%;
+  padding: 16px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: #eee;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.contact h1 {
+  font-family: "Roboto", sans-serif;
+  color: #35373ff6;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.contact p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: rgb(78, 78, 78);
+  margin-bottom: 40px;
+}
+
+.contact .container .contact-box {
+  width: 31%;
+  padding: 16px;
+  margin: 10px;
+  color: transparent;
+  color: black;
+
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.contact .container .message-box {
+  margin: 10px;
+  padding: 16px;
+  width: 765px;
+  height: 309px;
+  color: transparent;
+  color: black;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+
+.contact .contact_btn {
+  font-size: 18px;
+  width: 15%;
+  padding: 15px;
+  background-color: black;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  color: white;
+  cursor: pointer;
+}
+
+.contact div .contact_btn_div {
+  text-align: left;
+  margin-left: 170px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 50px 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer__divs {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+.footer_div h1 {
+  margin-bottom: 15px;
+}
+.footer_div p {
+  margin-bottom: 5px;
+}
+.footer hr {
+  margin: auto;
+  width: 80%;
+  color: rgb(212, 212, 212);
+  margin-bottom: 30px;
+}
+
+.footer__copyright {
+  margin: auto;
+  width: 80%;
+}
+.footer__links {
+  margin: auto;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.footer__links a {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer__links a:hover {
+  color: rgb(121, 121, 235);
+}
